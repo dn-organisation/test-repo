@@ -90,7 +90,7 @@ jobs:
           echo test, and deploy your project.
       
       - name: Download a Build Artifat
-        uses: actions/checkout@v4.6.0
+        uses: actions/checkout@v4
         with:
           name: Build-Artifact
           path: ${{github.workspace}}
